@@ -1,0 +1,31 @@
+---
+title: "Day 1- BST 260- Homework 1 "
+author: "Taylor Robinson"
+format: html
+editor: visual
+execute: 
+  echo: false
+---
+
+## Quarto
+
+```{r}
+#| echo: false
+#NOTES
+#how to avoid having the code show up= #|echo:false 
+#header --> execusite: echo false --> global commands for not showing code 
+#format: html to format: pdf or format: docx. We can also produce documents that render on GitHub using format: gfm, which stands for GitHub flavored markdown, a convenient way to share your reports
+
+```
+
+```{r}
+a<- 1
+b<- 3
+c<- 2
+x<-seq(-10, 10, length = 300)
+plot(x, a*x^2 + b*x + c, type = "l")
+abline(h = 0, lty = 5)
+
+```
+
+The above graph shows a quadratic function with intercepts at (-2,0) and (-1,0).The reader should be seeing the function for x\^2 + 3x+ 2
